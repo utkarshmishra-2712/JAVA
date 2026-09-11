@@ -1,8 +1,8 @@
 package Basics;
 import java.util.*;
-public class Rectangle {
+public class Rectangle1 {
     int l,b;
-    Rectangle(int l, int b){
+    Rectangle1(int l, int b){
         this.l = l;
         this.b = b;
     }
