@@ -30,6 +30,12 @@ class TicketCounter implements Runnable{
         }
     }
     public void run(){
+        try{
+        Thread.sleep(1000); // 1 second ke liye pause...
+        }
+        catch (InterruptedException e){
+            System.out.println(e);
+        }
         while(availabletickets>0)
         {
         bookTickets();
