@@ -8,7 +8,7 @@ public class AgeValidation {
         ageCheck(age);
         }
         catch (InvalidAgeException e){
-            System.out.println(e);
+            System.out.println(e.getMessage());
         }
     }
     static void ageCheck(int a) throws InvalidAgeException

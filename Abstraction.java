@@ -10,9 +10,10 @@ public class Abstraction {
     }
 }
 interface Payment{
-    int a=10;  //Public Static and final
+    int a=10;  // Public Static and final
     void makepayment();
-    static void display(){System.out.println("Payment successful");}
+    static void display()
+    {System.out.println("Payment successful");}
 }
 
 class UPI implements Payment{

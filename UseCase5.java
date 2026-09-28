@@ -1,5 +1,5 @@
 package Basics;
-
+import java.util.*;
 public class UseCase5 {
         public static void main(String[] args) {
             TicketCounter counter = new TicketCounter();
@@ -14,6 +14,7 @@ public class UseCase5 {
 
             t1.start();
             t2.start();
+            t1.setPriority(Thread.MAX_PRIORITY);
             // TODO: set t1 priority to Thread.MAX_PRIORITY
             // TODO: start both threads
         }

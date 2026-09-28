@@ -53,7 +53,6 @@ class WithdrawalThread implements Runnable {
     @Override
     public void run() {
         ba.withdraw(700);
-
     }
 }
 
