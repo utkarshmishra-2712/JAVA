@@ -1,10 +1,10 @@
 package Basics;
 import java.util.*;
-public class Comparator{
+public class Comparatordemo{
     public static void main(String[] args) {
         List<Integer> marks = new ArrayList<>();
         marks.add(80);
-        marks.add(99);
+        marks.add(100);
         marks.add(45);
         marks.add(67);
         marks.add(99);
