@@ -1,7 +1,5 @@
 package com.kiet.library.model;
-import com.kiet.library.service.BookService;
-import com.kiet.library.model.Book;
-import org.springframework.beans.factory.annotation.Autowired;
+
 public class Book {
     private int bookId;
     private String title;

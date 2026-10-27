@@ -1,4 +1,7 @@
 package com.kiet.library.controller;
+import com.kiet.library.service.BookService;
+import com.kiet.library.model.Book;
+
 
 import java.util.List;
 import java.util.Map;
@@ -10,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/books")
 public class BookController {
-    @Autowired
+    // @Autowired
     private final BookService bookService;
 
     // Constructor injection
